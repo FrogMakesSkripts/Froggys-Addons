@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "froggysaddons:block/polished_sunstone_block"
+  }
+}
