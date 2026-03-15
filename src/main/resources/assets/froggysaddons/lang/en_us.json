@@ -1,6 +1,7 @@
 {
-  "item.froggysaddons.sunstone": "Sunstone",
-  "item.froggysaddons.polished_sunstone": "Polished Sunstone",
+  "item.froggysaddons.sapphire": "Sapphire",
+  "item.froggysaddons.polished_sapphire": "Polished Sapphire",
 
-  "block.froggysaddons.polished_sunstone_block": "Block of Polished Sunstone"
+  "block.froggysaddons.polished_sapphire_block": "Block of Polished Sapphire",
+  "block.froggysaddons.sapphire_ore": "Sapphire Ore"
 }

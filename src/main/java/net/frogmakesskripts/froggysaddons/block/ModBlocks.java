@@ -23,17 +23,29 @@ public class ModBlocks {
     public static void registerModBlocks() {
         FroggysAddons.LOGGER.info("Registering Mod Blocks for " + FroggysAddons.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModBlocks.POLISHED_SUNSTONE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.POLISHED_SAPPHIRE_BLOCK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModBlocks.SAPPHIRE_ORE);
         });
     }
 
-    public static final Block POLISHED_SUNSTONE_BLOCK = registerBlock(
-            "polished_sunstone_block",
+    public static final Block POLISHED_SAPPHIRE_BLOCK = registerBlock(
+            "polished_sapphire_block",
             new Block(
                     AbstractBlock.Settings.create()
                             .strength(4f)
                             .requiresTool()
-                            .sounds(BlockSoundGroup.HEAVY_CORE)
+                            .sounds(BlockSoundGroup.POLISHED_TUFF)
+            )
+    );
+    public static final Block SAPPHIRE_ORE = registerBlock(
+            "sapphire_ore",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .strength(4f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.STONE)
             )
     );
 }

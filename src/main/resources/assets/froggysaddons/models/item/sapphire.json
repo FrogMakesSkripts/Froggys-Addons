@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "froggysaddons:item/sunstone"
+    "layer0": "froggysaddons:item/sapphire"
   }
 }

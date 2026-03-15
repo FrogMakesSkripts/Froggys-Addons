@@ -9,8 +9,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item SUNSTONE = registerItem("sunstone", new Item(new Item.Settings()));
-    public static final Item POLISHED_SUNSTONE = registerItem("polished_sunstone", new Item(new Item.Settings()));
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new Item.Settings()));
+    public static final Item POLISHED_SAPPHIRE = registerItem("polished_sapphire", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FroggysAddons.MOD_ID, name), item);
@@ -19,8 +19,8 @@ public class ModItems {
         FroggysAddons.LOGGER.info("Registering Mod Items for " + FroggysAddons.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-           fabricItemGroupEntries.add(SUNSTONE);
-           fabricItemGroupEntries.add(POLISHED_SUNSTONE);
+           fabricItemGroupEntries.add(SAPPHIRE);
+           fabricItemGroupEntries.add(POLISHED_SAPPHIRE);
         });
     }
 }
