@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "material",
+  "ingredients": [
+    {
+      "item": "froggysaddons:polished_sapphire_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "froggysaddons:polished_sapphire"
+  }
+}

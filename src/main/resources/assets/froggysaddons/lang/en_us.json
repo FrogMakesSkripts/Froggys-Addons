@@ -2,6 +2,11 @@
   "item.froggysaddons.sapphire": "Sapphire",
   "item.froggysaddons.polished_sapphire": "Polished Sapphire",
 
+  "block.froggysaddons.sapphire_ore": "Sapphire Ore",
+  "block.froggysaddons.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.froggysaddons.polished_sapphire_block": "Block of Polished Sapphire",
-  "block.froggysaddons.sapphire_ore": "Sapphire Ore"
+
+  "itemgroup.froggysaddons.froggys_addons_ingredients": "Froggy's Ingredients",
+  "itemgroup.froggysaddons.froggys_addons_blocks": "Froggy's Blocks",
+  "itemgroup.froggysaddons.froggys_addons_natural": "Froggy's Natural Items"
 }

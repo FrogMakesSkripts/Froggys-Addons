@@ -13,8 +13,8 @@ public class ModItems {
     public static final Item POLISHED_SAPPHIRE = registerItem("polished_sapphire", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(FroggysAddons.MOD_ID, name), item);
-    }
+        return Registry.register(Registries.ITEM, Identifier.of(FroggysAddons.MOD_ID, name), item);}
+
     public static void registerModItems() {
         FroggysAddons.LOGGER.info("Registering Mod Items for " + FroggysAddons.MOD_ID);
 

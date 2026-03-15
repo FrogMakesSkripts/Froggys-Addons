@@ -3,6 +3,7 @@ package net.frogmakesskripts.froggysaddons;
 import net.fabricmc.api.ModInitializer;
 
 import net.frogmakesskripts.froggysaddons.block.ModBlocks;
+import net.frogmakesskripts.froggysaddons.item.ModItemGroups;
 import net.frogmakesskripts.froggysaddons.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,8 @@ public class FroggysAddons implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
